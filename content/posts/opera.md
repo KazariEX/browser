@@ -5,4 +5,4 @@ icon: https://cdnjs.cloudflare.com/ajax/libs/browser-logos/74.1.0/opera/opera.sv
 official: https://www.opera.com/zh-cn
 ---
 
-# Hello Opera
+## Hello {{ $doc.title }}

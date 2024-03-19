@@ -5,4 +5,4 @@ icon: https://cdnjs.cloudflare.com/ajax/libs/browser-logos/74.1.0/safari/safari.
 official: https://www.apple.com.cn/safari
 ---
 
-# Hello Safari
+## Hello {{ $doc.title }}

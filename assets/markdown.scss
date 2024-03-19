@@ -1,0 +1,7 @@
+@import "star-markdown-css/dist/planet/planet-markdown.min.css";
+
+.markdown-body {
+    :where(h1, h2, h3, h4, h5, h6) > a:hover {
+        border-color: transparent;
+    }
+}

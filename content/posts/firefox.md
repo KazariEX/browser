@@ -5,4 +5,4 @@ icon: https://cdnjs.cloudflare.com/ajax/libs/browser-logos/74.1.0/firefox/firefo
 official: https://www.firefox.com.cn
 ---
 
-# Hello Firefox
+## Hello {{ $doc.title }}

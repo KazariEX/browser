@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  star-markdown-css:
+    specifier: ^0.4.2
+    version: 0.4.2
   vue:
     specifier: ^3.4.21
     version: 3.4.21(typescript@5.4.2)
@@ -8083,6 +8086,10 @@ packages:
   /standard-as-callback@2.1.0:
     resolution: {integrity: sha512-qoRRSyROncaz1z0mvYqIE4lCd9p2R90i6GxW3uZv5ucSu8tU7B5HXUP1gG8pVZsYNVaXjk8ClXHPttLyxAL48A==}
     dev: true
+
+  /star-markdown-css@0.4.2:
+    resolution: {integrity: sha512-H9KLteIZDPqjXOOJ0qVUEDk4V/S8xXOkBJcTTrbiPi/bLRwTOMesKcQ2/dMJXjgtximcGfCQRQjjsitrS4CfYQ==}
+    dev: false
 
   /statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}

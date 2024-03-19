@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <div min-h="50 md:70 lg:90" flex="~ wrap items-center">
         <div>
