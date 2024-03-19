@@ -1,3 +1,10 @@
+@font-face {
+    font-family: HarmonyOS_Sans_SC_Medium;
+    font-display: swap;
+    src: url("https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff") format("woff");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +15,10 @@
 
 *, ::before, ::after {
     box-sizing: border-box;
+}
+
+body {
+    font-family: HarmonyOS_Sans_SC_Medium, system-ui, -apple-system, blinkmacsystemfont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Source Han Sans CN", sans-serif;
 }
 
 a {
