@@ -16,6 +16,15 @@ export default defineNuxtConfig({
     css: [
         "~/assets/index.scss"
     ],
+    components: [
+        {
+            path: "~/components"
+        },
+        {
+            path: "~/components/ui",
+            prefix: "z"
+        }
+    ],
     devtools: {
         enabled: true
     },
