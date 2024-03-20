@@ -7,7 +7,7 @@
                 <span text="gray">{{ doc.description }}</span>
             </div>
         </header>
-        <div flex="~ gap-8">
+        <div flex="~ gap-8 lt-md:col">
             <content-renderer class="markdown-body" flex="1" tag="article" :value="doc"/>
             <aside class="w-50 mt-6">
                 <div line="height-8" text="gray">
