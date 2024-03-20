@@ -18,15 +18,10 @@
                 <nuxt-link un-text="hover:blue" :to="doc._path">{{ doc.abbrTitle || doc.title }}</nuxt-link>
             </span>
             <span line="height-6 clamp-2" text="gray">{{ doc.description }}</span>
-            <nuxt-link
-                class="ml-auto"
-                flex="~ gap-1 items-center justify-end"
-                un-text="gray hover:blue"
-                :to="doc.official"
-                target="_blank"
-                ><span>前往官网</span>
+            <plain-link class="ml-auto" :to="doc.official" target="_blank">
+                <span>前往官网</span>
                 <icon name="pajamas:external-link"/>
-            </nuxt-link>
+            </plain-link>
         </div>
     </div>
 </template>
