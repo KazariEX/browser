@@ -6,9 +6,9 @@
         </div>
         <icon class="ml-auto" text="36 md:54 lg:72" name="ph:planet"/>
     </div>
-    <ContentList v-slot="{ list }" path="/">
+    <content-list v-slot="{ list }">
         <div grid="~ cols-[repeat(auto-fill,minmax(320px,1fr))] gap-6">
-            <BrowserItem v-for="item in list" :doc="item"/>
+            <browser-item v-for="item in list" :doc="item"/>
         </div>
-    </ContentList>
+    </content-list>
 </template>
