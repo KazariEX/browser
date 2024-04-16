@@ -25,7 +25,7 @@
                 <div line="height-8" text="gray">
                     <span>目录</span>
                 </div>
-                <content-list v-slot="{ list }">
+                <content-list v-slot="{ list }" :query="{ where: [{ type: doc.type }] }">
                     <nav>
                         <ul>
                             <li v-for="item in list" line="height-7">
