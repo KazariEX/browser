@@ -29,7 +29,7 @@
                     <nav>
                         <ul>
                             <li v-for="item in list" line="height-7">
-                                <nuxt-link class="block" un-text="[&.router-link-active]:blue hover:blue" :to="item._path">{{ item.title }}</nuxt-link>
+                                <nuxt-link class="block" un-text="[&.router-link-active]:primary hover:primary" :to="item._path">{{ item.title }}</nuxt-link>
                             </li>
                         </ul>
                     </nav>

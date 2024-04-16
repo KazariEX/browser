@@ -20,7 +20,8 @@
 body {
     overflow-y: scroll;
     font-family: HarmonyOS_Sans_SC_Medium, system-ui, -apple-system, blinkmacsystemfont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Source Han Sans CN", sans-serif;
-    color: rgb(36 33 30);
+    color: rgb(var(--un-preset-theme-colors-dark-DEFAULT));
+    background-color: rgb(var(--un-preset-theme-colors-light-DEFAULT));
 }
 
 a {

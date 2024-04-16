@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+    useHead({
+        title: "主页"
+    });
+
     const classification = [
         {
             title: "浏览器",
