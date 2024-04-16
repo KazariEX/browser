@@ -22,7 +22,7 @@
     <template v-for="{ title, type }, i in classification">
         <div flex="~ items-center gap-2" m="y-4" text="12">
             <span text="gray">{{ i + 1 }}.</span>
-            <h2 text="12">{{ title }}</h2>
+            <h2 text="10">{{ title }}</h2>
         </div>
         <content-list v-slot="{ list }" :query="{ where: [{ type }] }">
             <div grid="~ cols-[repeat(auto-fill,minmax(320px,1fr))] gap-6">
