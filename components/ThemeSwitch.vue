@@ -1,12 +1,13 @@
 <script setup>
-    const isDark = useDark();
+    const mode = useColorMode();
     const state = ref(1);
 
     watch(state, (val) => {
-        isDark.value = {
-            0: false,
-            2: true
-        }[val] ?? false;
+        mode.value = {
+            0: "light",
+            1: "auto",
+            2: "dark"
+        }[val];
     });
 </script>
 
