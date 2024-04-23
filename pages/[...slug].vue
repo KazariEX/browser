@@ -28,7 +28,7 @@
                 <content-list v-slot="{ list }" :query="{ where: [{ type: doc.type }] }">
                     <nav>
                         <ul>
-                            <li v-for="item in list" line="height-7">
+                            <li v-for="item in list" :key="item._id" line="height-7">
                                 <nuxt-link class="block" un-text="[&.router-link-active]:primary hover:primary" :to="item._path">{{ item.title }}</nuxt-link>
                             </li>
                         </ul>

@@ -43,6 +43,6 @@
             </div>
         </div>
         <div grid="~ cols-[repeat(auto-fill,minmax(320px,1fr))] gap-6">
-            <browser-item v-for="item in filteredList" :doc="item"/>
+            <browser-item v-for="item in filteredList" :key="item._id" :doc="item"/>
         </div>
 </template>
