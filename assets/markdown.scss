@@ -1,7 +1,15 @@
 @import "star-markdown-css/dist/planet/planet-markdown.min.css";
 
 .markdown-body {
+    --smc-link-color: rgb(var(--un-preset-theme-colors-primary-DEFAULT));
+
     :where(h1, h2, h3, h4, h5, h6) > a:hover {
         border-color: transparent;
     }
+}
+
+html.dark {
+    --smc-c-primary: var(--smc-c-text);
+    --smc-c-primary-light: var(--smc-c-text-light);
+    --smc-c-primary-lighter: var(--smc-c-text-lighter);
 }

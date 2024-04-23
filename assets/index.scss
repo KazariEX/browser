@@ -33,3 +33,9 @@ a {
 ul {
     list-style: none;
 }
+
+input {
+    width: 100%;
+    background-color: rgb(var(--un-preset-theme-colors-light-DEFAULT));
+    color: rgb(var(--un-preset-theme-colors-dark-DEFAULT));
+}

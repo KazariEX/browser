@@ -24,14 +24,6 @@
         <icon class="ml-auto" text="36 md:54 lg:72" name="ph:planet"/>
     </div>
     <template v-for="{ title, type }, i in classification">
-        <div flex="~ items-center gap-2" m="y-4" text="12">
-            <span text="gray">{{ i + 1 }}.</span>
-            <h2 text="10">{{ title }}</h2>
-        </div>
-        <content-list v-slot="{ list }" :query="{ where: [{ type }] }">
-            <div grid="~ cols-[repeat(auto-fill,minmax(320px,1fr))] gap-6">
-                <browser-item v-for="item in list" :doc="item"/>
-            </div>
-        </content-list>
+        <browser-list :title="title" :type="type" :index="i"/>
     </template>
 </template>
