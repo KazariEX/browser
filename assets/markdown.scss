@@ -3,6 +3,8 @@
 .markdown-body {
     --smc-link-color: rgb(var(--un-preset-theme-colors-primary-DEFAULT));
 
+    font-family: var(--font);
+
     :where(h1, h2, h3, h4, h5, h6) > a:hover {
         border-color: transparent;
     }
