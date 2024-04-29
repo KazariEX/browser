@@ -23,11 +23,11 @@
         </div>
         <icon class="ml-auto" text="36 md:54 lg:72" name="ph:planet"/>
     </div>
-        <browser-list
-            v-for="{ title, type }, i in classification"
-            :key="type"
-            :title="title"
-            :type="type"
-            :index="i"
-        />
+    <browser-list
+        v-for="{ title, type }, i in classification"
+        :key="type"
+        :title="title"
+        :type="type"
+        :index="i"
+    />
 </template>

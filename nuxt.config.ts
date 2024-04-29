@@ -29,6 +29,11 @@ export default defineNuxtConfig({
     devtools: {
         enabled: true
     },
+    routeRules: {
+        "/slide": {
+            ssr: false
+        }
+    },
     modules: [
         "@nuxt/content",
         "@nuxt/image",
