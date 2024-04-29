@@ -1,15 +1,19 @@
-<script setup>
+<script lang="ts" setup>
     const list = [
         {
             name: "主页",
             to: "/"
+        },
+        {
+            name: "关于",
+            to: "/about"
         }
     ];
 </script>
 
 <template>
     <header
-        class="fixed inset-0 top-4 size-fit shadow-2xl backdrop-blur-md"
+        class="fixed inset-0 top-3 size-fit shadow-2xl backdrop-blur-md"
         flex="~"
         m="x-auto"
         p="l-3.5"
