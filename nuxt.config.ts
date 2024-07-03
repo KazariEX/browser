@@ -32,11 +32,6 @@ export default defineNuxtConfig({
     future: {
         compatibilityVersion: 4
     },
-    routeRules: {
-        "/slide": {
-            ssr: false
-        }
-    },
     modules: [
         "@nuxt/content",
         "@nuxt/image",
