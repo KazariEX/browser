@@ -1,4 +1,4 @@
-import { defineConfig, presetUno, presetAttributify } from "unocss";
+import { defineConfig, presetAttributify, presetUno } from "unocss";
 import presetTheme from "unocss-preset-theme";
 import type { Theme } from "unocss/preset-uno";
 import { colors } from "unocss/preset-mini";

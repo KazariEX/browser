@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-    import type { ParsedContent } from "@nuxt/content/types";
+    import type { ParsedContent } from "@nuxt/content";
 
     defineProps<{
-        doc: ParsedContent
+        doc: ParsedContent;
     }>();
 </script>
 
