@@ -12,23 +12,23 @@
   "dependencies": {
     "reveal.js": "^5.1.0",
     "star-markdown-css": "^0.4.2",
-    "vue": "^3.4.26",
-    "vue-router": "^4.3.2"
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.16.0",
-    "@nuxt/content": "^2.12.1",
-    "@nuxt/image": "^1.6.0",
+    "@antfu/eslint-config": "^2.21.2",
+    "@nuxt/content": "^2.13.0",
+    "@nuxt/image": "^1.7.0",
     "@types/reveal.js": "^5.0.3",
-    "@unocss/nuxt": "^0.59.4",
-    "@vueuse/core": "^10.9.0",
-    "@vueuse/nuxt": "^10.9.0",
-    "@zinkawaii/eslint-config": "^0.1.0",
-    "eslint": "^9.1.1",
-    "nuxt": "^3.11.2",
+    "@unocss/nuxt": "^0.61.0",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
+    "@zinkawaii/eslint-config": "^0.1.1",
+    "eslint": "^9.6.0",
+    "nuxt": "^3.12.3",
     "nuxt-icon": "^0.6.10",
-    "sass": "^1.75.0",
-    "unocss": "^0.59.4",
-    "unocss-preset-theme": "^0.12.0"
+    "sass": "^1.77.6",
+    "unocss": "^0.61.0",
+    "unocss-preset-theme": "^0.13.0"
   }
 }
